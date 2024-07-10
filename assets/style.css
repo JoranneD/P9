@@ -50,6 +50,12 @@ body {
 	position: relative;
 }
 
+/* ADD */
+.picture.left img,.picture.right img,.social-link img {
+	width: 100%;
+	height: 100%;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
