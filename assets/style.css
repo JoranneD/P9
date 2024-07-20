@@ -2,7 +2,7 @@ body {
 	max-width: 1920px;
 	margin: auto;
 	/* ADD */
-	min-width: 375px;
+	/* min-width: 375px; */
 }
 * {
 	font-family: 'Inter';
@@ -17,9 +17,9 @@ body {
 }
 
 /* ADD */
-#header {
+/* #header {
 	width: inherit;
-}
+} */
 
 .top-header {
 	background-color: white;
