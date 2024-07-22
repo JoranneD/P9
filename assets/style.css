@@ -2,7 +2,7 @@ body {
 	max-width: 1920px;
 	margin: auto;
 	/* ADD */
-	/* min-width: 375px; */
+	/* min-width: 1024px; */
 }
 * {
 	font-family: 'Inter';
@@ -19,6 +19,11 @@ body {
 /* ADD */
 /* #header {
 	width: inherit;
+} */
+
+/* ADD */
+/* #carouselExampleIndicators {
+	min-width: 1024px;
 } */
 
 .top-header {
@@ -70,7 +75,7 @@ body {
 	padding-block: 100px;
 	position: relative;
 	/* ADD */
-	/* width: inherit; */
+	min-height: 300px;
 }
 
 .picture.left::before {
