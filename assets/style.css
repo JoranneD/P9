@@ -1,6 +1,7 @@
-body {
+html, body {
 	max-width: 1920px;
 	margin: auto;
+	width: 100%;
 	/* ADD */
 	/* min-width: 1024px; */
 }
