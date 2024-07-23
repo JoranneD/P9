@@ -7,6 +7,7 @@ body {
 * {
 	font-family: 'Inter';
 	font-style: normal;
+	/* font-weight: 800; */
 }
 
 /* ADD */
@@ -75,7 +76,7 @@ body {
 	padding-block: 100px;
 	position: relative;
 	/* ADD */
-	min-height: 300px;
+	/* min-height: 300px; */
 }
 
 .picture.left::before {
