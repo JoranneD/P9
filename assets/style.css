@@ -50,6 +50,13 @@ html {
 	min-width: 1024px;
 } */
 
+/* ADD */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
