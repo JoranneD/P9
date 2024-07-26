@@ -2,7 +2,7 @@ body {
 	max-width: 1920px;
 	margin: auto;
 	/* ADD */
-	/* min-height: 100%; */
+	font-family: 'Spectral', 'Inter', sans-serif;
 }
 
 /* html {
