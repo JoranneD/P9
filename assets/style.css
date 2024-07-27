@@ -30,6 +30,8 @@ body {
 	margin: auto;
 	/* ADD */
 	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Styles supplémentaires */
@@ -51,26 +53,15 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
     width: 100%;
 }
 
-/* ADD */
-/* #header {
-	width: inherit;
-} */
+/* Ajouter des tailles fixes aux éléments si nécessaire */
+#header {
+    width: 100%; /* Assurer que le header occupe la largeur totale */
+}
 
-/* ADD */
-/* #carouselExampleIndicators {
-	min-width: 1024px;
-} */
+#carouselExampleIndicators {
+    min-width: 1024px; /* Assurer une largeur minimale si nécessaire */
+}
 
-/* ADD */
-/* .carousel-control-prev,
-.carousel-control-next {
-	position: relative;
-} */
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 30px;
-    height: 30px;
-} */
 
 .top-header {
 	background-color: white;
