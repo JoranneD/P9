@@ -47,21 +47,37 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
     font-family: 'Spectral', serif;
 }
 
+.carousel {
+    width: 100%;
+    overflow: hidden; /* Empêcher les débordements */
+}
+
+/* Style des contrôles du carrousel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Ajuster la largeur des contrôles */
+    height: 50px; /* Ajuster la hauteur des contrôles */
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente pour une meilleure visibilité */
+    border-radius: 50%; /* Arrondir les boutons */
+    z-index: 1000; /* Assurer que les contrôles sont au-dessus du carrousel */
+    top: 50%; /* Positionner verticalement au milieu du carrousel */
+    transform: translateY(-50%); /* Centrer verticalement */
+}
+
 /* Ajout pour les images de carousel */
 .carousel-inner, .carousel-item {
     position: relative;
     width: 100%;
 }
 
+#carouselExampleIndicators {
+    min-width: 1024px;
+}
+
 /* Ajouter des tailles fixes aux éléments si nécessaire */
 #header {
-    width: 100%; /* Assurer que le header occupe la largeur totale */
+    width: 100%;
 }
-
-#carouselExampleIndicators {
-    min-width: 1024px; /* Assurer une largeur minimale si nécessaire */
-}
-
 
 .top-header {
 	background-color: white;
@@ -78,11 +94,6 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
 .top-header .name {
 	font-size: 26px;
 }
-
-/* ADD */
-/* .nav {
-	width: inherit;
-} */
 
 .nav ul {
 	display: flex;
