@@ -37,6 +37,11 @@ body {
 	height: auto;
 }
 
+/* Ajout pour les images de carousel */
+.carousel-inner, .carousel-item {
+    position: relative;
+    width: 100%;
+}
 
 /* ADD */
 /* #header {
