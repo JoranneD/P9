@@ -50,18 +50,29 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
 .carousel {
     width: 100%;
     overflow: hidden; /* Empêcher les débordements */
+	/* ADD */
+	margin: 0; /* Éviter les marges non désirées */
+    padding: 0; /* Éviter les paddings non désirés */
 }
 
 /* Style des contrôles du carrousel */
 .carousel-control-prev,
 .carousel-control-next {
-    width: 50px; /* Ajuster la largeur des contrôles */
-    height: 50px; /* Ajuster la hauteur des contrôles */
-    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente pour une meilleure visibilité */
-    border-radius: 50%; /* Arrondir les boutons */
-    z-index: 1000; /* Assurer que les contrôles sont au-dessus du carrousel */
-    top: 50%; /* Positionner verticalement au milieu du carrousel */
-    transform: translateY(-50%); /* Centrer verticalement */
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Style des icônes des contrôles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%, 100%; /* Assurer que les icônes couvrent bien le bouton */
+    background-repeat: no-repeat;
+    background-position: center; /* Centrer les icônes */
+    width: 100%; /* Utiliser toute la largeur du bouton */
+    height: 100%; /* Utiliser toute la hauteur du bouton */
 }
 
 /* Ajout pour les images de carousel */
@@ -77,6 +88,10 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
 /* Ajouter des tailles fixes aux éléments si nécessaire */
 #header {
     width: 100%;
+	/* ADD */
+	width: 100%;
+    position: relative; /* Assurer que le header est positionné correctement */
+    z-index: 1000; 
 }
 
 .top-header {
