@@ -28,18 +28,18 @@ body {
 	margin: auto;
 	/* ADD */
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
-    line-height: 1.5;
+	/* font-size: 16px;
+    line-height: 1.5; */
 }
 
 /* Styles de remplacement pour la police Spectral si nécessaire */
-h1, h2, h3, h4, h5, h6, .spectral-text {
+/* h1, h2, h3, h4, h5, h6, .spectral-text {
     font-family: 'Spectral', serif;
-}
+} */
 
-#carouselExampleIndicators {
+/* #carouselExampleIndicators {
     min-width: 1024px;
-}
+} */
 
 /* Styles supplémentaires */
 .carousel {
@@ -47,15 +47,15 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
 	height: auto;
     overflow: hidden; /* Empêcher les débordements */
 	/* ADD */
-	margin: 0; /* Éviter les marges non désirées */
-    padding: 0; /* Éviter les paddings non désirés */
+	/* margin: 0;
+    padding: 0; */
 }
 
 /* Ajout pour les images de carousel */
-.carousel-inner, .carousel-item {
+/* .carousel-inner, .carousel-item {
     position: relative;
     width: 100%;
-}
+} */
 
 .carousel-item img {
 	display: block;
@@ -64,33 +64,33 @@ h1, h2, h3, h4, h5, h6, .spectral-text {
 }
 
 /* Style des contrôles du carrousel */
-.carousel-control-prev,
+/* .carousel-control-prev,
 .carousel-control-next {
     width: 50px;
     height: 50px;
     z-index: 1000;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
 /* Style des icônes des contrôles */
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-size: 100%, 100%; /* Assurer que les icônes couvrent bien le bouton */
+    background-size: 100%, 100%;
     background-repeat: no-repeat;
-    background-position: center; /* Centrer les icônes */
-    width: 100%; /* Utiliser toute la largeur du bouton */
-    height: 100%; /* Utiliser toute la hauteur du bouton */
-}
+    background-position: center;
+    width: 100%;
+    height: 100%;
+} */
 
 /* Ajouter des tailles fixes aux éléments si nécessaire */
 #header {
     width: 100%;
 	/* ADD */
-    position: relative; /* Assurer que le header est positionné correctement */
+    /* position: relative;
     z-index: 1000;
-	margin: 0; /* Éviter les marges non désirées */
-    padding: 0; /* Éviter les paddings non désirés */
+	margin: 0;
+    padding: 0; */
 }
 
 .top-header {
