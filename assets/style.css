@@ -1,5 +1,5 @@
 /* Chargement des polices */
-@font-face {
+/* @font-face {
 	font-family: 'Inter';
 	src: url(./fonts/Inter-Regular.woff2) format('woff2');
 	font-display: swap;
@@ -14,13 +14,7 @@
 	src: url(./fonts/spectral-italic.woff2) format('woff2');
 	font-style: italic;
 	font-display: swap;
-}
-
-/* Application des polices globalement */
-* {
-	font-family: 'Inter', 'Spectral', sans-serif;
-	font-style: normal;
-}
+} */
 
 /* Style du body */
 body {
@@ -28,6 +22,16 @@ body {
 	margin: auto;
 	/* ADD */
 	/* font-family: 'Inter', sans-serif; */
+}
+
+/* Application des polices globalement */
+* {
+	font-family: 'Inter';
+	font-style: normal;
+}
+
+html {
+	scroll-padding-top: 3em;
 }
 
 
